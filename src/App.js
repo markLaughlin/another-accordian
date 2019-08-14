@@ -7,7 +7,7 @@ class App extends React.Component {
     super(props)
 
     this.state = {
-      count: 0,
+      currentNumber: 0,
       seenOne: false,
       seenTwo: false,
       seenThree: false,
@@ -23,7 +23,7 @@ class App extends React.Component {
 
   handleClickOne(){
     console.log("handleClickOne method ran")
-    this.setState({count: this.state.count + 1})
+    this.setState({currentNumber: 1})
     this.setState({seenOne: true})
     console.log("this.state.seenOne: ")
     console.log(this.state.seenOne)
@@ -31,7 +31,7 @@ class App extends React.Component {
 
   handleClickTwo(){
     console.log("handleClickTwo method ran")
-    this.setState({count: this.state.count + 1})
+    this.setState({currentNumber: 2})
     this.setState({seenTwo: true})
     console.log("this.state.seenTwo: ")
     console.log(this.state.seenTwo)
@@ -39,7 +39,7 @@ class App extends React.Component {
 
   handleClickThree(){
     console.log("handleClickThree method ran")
-    this.setState({count: this.state.count + 1})
+    this.setState({currentNumber: 3})
     this.setState({seenThree: true})
     console.log("this.state.seenThree: ")
     console.log(this.state.seenThree)
