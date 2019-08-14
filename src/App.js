@@ -34,7 +34,7 @@ class App extends React.Component {
   }
 
   render(){
-    console.log("render method of App component ran")
+    console.log("render method of Mark's App component ran")
     return (
       <div className="App">
        <h1>Hello from the App component of the Accordian App</h1>
