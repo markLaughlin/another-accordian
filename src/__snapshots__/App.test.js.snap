@@ -5,23 +5,32 @@ exports[`renders the UI as expected 1`] = `
   className="App"
 >
   <h1>
-    Hello from the App component of the Accordian App
+    Hello from the App component of Mark's Most Excellent Accordian App
   </h1>
-  <button>
+  <button
+    onClick={[Function]}
+  >
     Click for Inspirational Message One
   </button>
   <br />
   <br />
-  <button>
+  <button
+    onClick={[Function]}
+  >
     Click for Inspirational Message Two
   </button>
   <br />
   <br />
-  <button>
-    Click for Inspirational Message Three
+  <button
+    onClick={[Function]}
+  >
+     Click for Inspirational Message Three
   </button>
   <br />
   <br />
   Inspirational message to come...
+  <br />
+  
+  
 </div>
 `;
