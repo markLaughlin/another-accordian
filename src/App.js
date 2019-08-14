@@ -40,7 +40,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-       <h1>Hello from the App component of Mark's Accordian App</h1>
+       <h1>Hello from the App component of Mark's Most Excellent Accordian App</h1>
        <button onClick={this.handleClickOne}>Click for Inspirational Message One</button>
        <br/>
        <br/>
