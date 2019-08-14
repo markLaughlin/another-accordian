@@ -35,6 +35,9 @@ class App extends React.Component {
 
   render(){
     console.log("render method of Mark's App component ran")
+
+    let condit = this.state.currentNumber > 2 ? <p>Hit refresh to clear messages!</p> : ""
+
     return (
       <div className="App">
        <h1>Hello from the App component of the Accordian App</h1>
@@ -53,7 +56,8 @@ class App extends React.Component {
        <br/>
 
        {this.state.quotes[this.state.currentNumber]}
-
+       <br/>
+       {condit}
       </div>
     );
   }
